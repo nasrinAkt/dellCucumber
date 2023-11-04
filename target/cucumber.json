@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify user can add item in cart.",
+        "description": "",
+        "id": "this-is-a-feature-for-verify-cart-functionality.;verify-user-can-add-item-in-cart.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4034008900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "open dell application",
+            "match": {
+              "location": "stepClass.open_dell_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113531000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search item on search button",
+            "match": {
+              "location": "stepClass.search_item_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3210103900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click search icon",
+            "match": {
+              "location": "stepClass.click_search_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13880149300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on item",
+            "match": {
+              "location": "stepClass.click_on_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for verify cart functionality.",
+    "description": "",
+    "id": "this-is-a-feature-for-verify-cart-functionality.",
+    "keyword": "Feature",
+    "uri": "about.feature"
+  }
+]
